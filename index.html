@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money master</title>
+        <!-- connect style file -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="main"> 
+        <h1 class="heading">Money Calculate</h1>
+        <container class="container">
+            <!-- img section -->
+        <section>
+            <div class="money-img">
+             <img src="./images//money.jpg" alt="">
+            </div> 
+         </section>
+ 
+         <!-- calcualate section -->
+         <section class="calculate-section">
+              
+              <form class="form" action="">
+                <h1 class="section-heading">Income</h1>
+                <label>
+                  Income: <input id="income-input" class="input-field" type="text" >
+                </label>
+                  <div class="expense">
+                    <h1 class="section-heading">Expenses</h1>
+                    <label>
+                      Food:  <input id="food" class="input-field" type="text" >
+                    </label>
+                    <label>
+                       Rent: <input id="rent"  class="input-field" type="text" >
+                    </label>
+                    <label>
+                      Cloth: <input id="cloth" class="input-field" type="text" >
+                    </label>
+                  </div>
+                </form>
+                <div class="calculate">
+                  <button id="calculate-btn" class="btn">Calculate</button>
+                  <h5>Total Expenses: $<span id="total-expense">000</span> </h5>
+                  <h5>Balance: $<span id="balance">000</span> </h5>
+                </div>
+                <div class="save">
+                  <label for="">Save:<input id="save-input" class="save-input" type="text"></label>
+                  <h5 class="parcentece">%</h5>
+                  <button id="save-btn" class="btn">Save</button>
+                </div>
+
+                <div class="calculate">
+                  <h5>Saving Amount: $<span id="saving-amount">000</span> </h3>
+                  <h5 class="remaining">Remaining Balance: $<span id="remaining">000</span> </h3>
+                </div>
+                  
+                
+                
+                
+         </section>
+        </container>
+
+       
+
+    </main>
+    <!-- connect js file -->
+    <script src="./app.js"></script>
+</body>
+</html>
